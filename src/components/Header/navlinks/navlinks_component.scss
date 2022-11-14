@@ -1,0 +1,106 @@
+.NavLinks{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100%;
+    ul{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        .active{
+            color: #f4f4f4;
+        }
+        a:hover{
+            color: #f4f4f4;
+        }
+        li.mainlink{
+            color: #777575;
+            list-style-type: none;
+            flex-grow: 1;
+            text-transform: uppercase;
+            font-weight: 900;
+            text-align: center;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .sublinks{
+                text-transform: capitalize;
+                height: max-content;
+                z-index: 10;
+                li{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            .linkswhoscoming{
+                flex-direction: column;
+                background-color: #2a1e4b;
+                position: absolute;
+                top: 100px;
+                width: 250px;
+                border-radius: 10px;
+                right:405px;
+                visibility: visible;
+                opacity: 0;
+                transition: all 3s;
+                display: none;
+                li{
+                    width: 100%;
+                    color: #777575;
+                    list-style: none;
+                    text-align: center;
+                }
+            }
+            &:hover{
+                color: #f4f4f4;
+                & > .sublinks{
+                    animation-name: fadeupanime;
+                    animation-duration: 1s;
+                    visibility: visible;
+                    display: flex;
+                    opacity: 1;
+                    transition: all 3s;
+                }
+            }
+            &.Register{
+                a{
+                    background-color:#f4f4f4 ;
+                    border-radius: 10px;
+                    text-decoration: none;
+                    padding: 8px;
+                    color: #2a1e4b;
+                    transition: all .3s;
+                    &:hover{
+                        background-color: #2b243e;
+                        color:#f4f4f4;
+                    }
+                }
+            }
+        }
+    }
+}
+@keyframes fadeupanime {
+    0%{
+        opacity: 0;
+        top:150px;
+    }
+    100%{
+        opacity: 1;
+        top: 100px;
+    }
+}
+@keyframes fadedownanime {
+    0%{
+        opacity: 1;
+        top:100px;
+    }
+    100%{
+        opacity: 1;
+        top: 150px;
+    }
+}

@@ -1,0 +1,17 @@
+.CalendarSvg{
+    svg{
+        width: 40px;
+    }
+    span.SvgContentCalendar{
+        color: #b1aeae;
+        position: relative;
+        top: -18px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Space Mono', monospace;
+    }
+    span.SvgCSpan:hover ~ span.SvgContentCalendar{
+        color: #f4f4f4;
+    }
+}

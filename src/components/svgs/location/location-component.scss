@@ -1,0 +1,17 @@
+.LocationSvg{
+    svg{
+        width: 40px;
+    }
+    span.SvgContentLocation{
+        color: #b1aeae;
+        position: relative;
+        top: -12px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Space Mono', monospace;
+    }
+    span.locationSvg:hover ~ span.SvgContentLocation{
+        color: #f4f4f4;
+    }
+}

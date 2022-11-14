@@ -1,0 +1,277 @@
+// .AboutComponent{
+//     position: absolute;
+//     top: 20vh;
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     height: 500vh;
+//     background-color: #d4dce9;
+//     width: 200vh;
+//     div.AboutC1{
+//         background-color: #d4dce9;
+//         height: 80vh;
+//         border-radius: 10px;
+//         width:80vw;
+//         section.Nacscd{
+//             display: flex;
+//             div.groupImg{
+//                 width: 40%;
+//                 display: flex;
+//                 position: relative;
+//                 right: 0;
+//                 opacity: 1;
+//                 animation-name: loading;
+//                 animation-duration: 1.5s;
+//                 animation-timing-function: ease-in-out;
+//                 img{
+//                     width: 100%;
+//                     height: 300px;
+//                     margin: 50px;
+//                     border-radius: 10px;
+//                 }
+//             }
+//             div.AboutNcascd{
+//                 width: 60%;
+//                 display: flex;
+//                 flex-direction: column;
+//                 align-items: center;
+//                 .Shape1{
+//                     position: absolute;
+//                     right: 150px;
+//                 }
+//                 h1{
+//                     font-size: 40px;
+//                     line-height: 90px;
+//                     position: relative;
+//                     right: 0;
+//                     opacity: 1;
+//                     animation-name: loading;
+//                     animation-duration: 1s;
+//                     animation-timing-function: ease-in-out;
+//                 }
+//                 p{
+//                     text-align: justify;
+//                     text-justify: inter-word;
+//                     width: 60%;
+//                     position: relative;
+//                     right: 0;
+//                     opacity: 1;
+//                     animation-name: loading;
+//                     animation-duration: 1.5s;
+//                     animation-timing-function: ease-in-out;
+//                 }
+//             }
+//         }
+//     }
+//     div.AboutC2{
+//         width: 80vw;
+//         height: 100vh;      
+//     }
+// }
+.AboutComponent{
+    overflow: hidden;
+    width : 80vw;
+    margin: 10px auto;
+    background-color: #cae0fe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border-radius: 10px;
+    z-index: 1;
+    .AboutC{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        .NacscdAbout{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .groupImg{
+                display: flex;
+                width: 60%;
+                img{
+                    width: 70%;
+                    height: 300px;
+                    margin: 80px 40px 45px 60px;
+                    border-radius: 10px;
+                    position: relative;
+                    animation-name: loading;
+                    animation-duration: 1s;
+                }
+            }
+            .AboutNcascd{
+                width: 40%;
+                img{
+                    position: absolute;
+                    right: 145px;
+                }
+                h1{
+                    width: 90%;
+                    font-size: 40px;
+                    line-height: 90px;
+                    position: relative;
+                    text-align: center;
+                    right: 0;
+                    opacity: 1;
+                    animation-name: loading;
+                    animation-duration: 1s;
+                    animation-timing-function: ease-in-out;
+                    color: #110e19;
+                }
+                p{
+                    text-align: justify;
+                    text-justify: inter-word;
+                    width: 90%;
+                    position: relative;
+                    line-height: 27px;
+                    right: 0;
+                    opacity: 1;
+                    animation-name: loading;
+                    animation-duration: 1.5s;
+                    animation-timing-function: ease-in-out;                    
+                }
+            }
+        }
+        .MbccetAbout{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .clgImg{
+                display: flex;
+                width: 60%;
+                img{
+                    width: 70%;
+                    height: 300px;
+                    margin: 80px 40px 45px 60px;
+                    border-radius: 10px;
+                    position: relative;
+                    animation-name: loading;
+                    animation-duration: 1s;
+                }
+            }
+            .AboutInstitute{
+                width: 40%;
+                h1{
+                    width: 90%;
+                    font-size: 40px;
+                    line-height: 90px;
+                    position: relative;
+                    text-align: center;
+                    right: 0;
+                    opacity: 1;
+                    animation-name: loading;
+                    animation-duration: 1s;
+                    animation-timing-function: ease-in-out;
+                    color: #110e19;
+                }
+                p{
+                    text-align: justify;
+                    text-justify: inter-word;
+                    width: 90%;
+                    position: relative;
+                    line-height: 27px;
+                    right: 0;
+                    opacity: 1;
+                    animation-name: loading;
+                    animation-duration: 1.5s;
+                    animation-timing-function: ease-in-out;                    
+                }
+            }
+        }
+        .DeptAbout{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .deptImg{
+                display: flex;
+                width: 60%;
+                img{
+                    width: 70%;
+                    height: 300px;
+                    margin: 80px 40px 45px 60px;
+                    border-radius: 10px;
+                    position: relative;
+                    animation-name: loading;
+                    animation-duration: 1s;
+                }
+            }
+            .AboutDepartment{
+                width: 40%;
+                h1{
+                    width: 90%;
+                    font-size: 40px;
+                    line-height: 90px;
+                    position: relative;
+                    text-align: center;
+                    right: 0;
+                    opacity: 1;
+                    animation-name: loading;
+                    animation-duration: 1s;
+                    animation-timing-function: ease-in-out;
+                    color: #110e19;
+                }
+                p{
+                    text-align: justify;
+                    text-justify: inter-word;
+                    width: 90%;
+                    position: relative;
+                    line-height: 27px;
+                    right: 0;
+                    opacity: 1;
+                    animation-name: loading;
+                    animation-duration: 1.5s;
+                    animation-timing-function: ease-in-out;                    
+                }
+            }
+        }
+        .PlaceAbout{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .placeImg{
+                display: flex;
+                width: 60%;
+                img{
+                    width: 70%;
+                    height: 300px;
+                    margin: 80px 40px 45px 60px;
+                    border-radius: 10px;
+                    position: relative;
+                    animation-name: loading;
+                    animation-duration: 1s;
+                }
+            }
+            .AboutPlace{
+                width: 40%;
+                padding-top: 50px;
+                h1{
+                    width: 90%;
+                    font-size: 40px;
+                    line-height: 90px;
+                    position: relative;
+                    text-align: center;
+                    right: 0;
+                    opacity: 1;
+                    animation-name: loading;
+                    animation-duration: 1s;
+                    animation-timing-function: ease-in-out;
+                    color: #110e19;
+                }
+                p{
+                    text-align: justify;
+                    text-justify: inter-word;
+                    width: 90%;
+                    position: relative;
+                    line-height: 27px;
+                    right: 0;
+                    opacity: 1;
+                    animation-name: loading;
+                    animation-duration: 1.5s;
+                    animation-timing-function: ease-in-out;                    
+                }
+            }
+        }
+    }
+}

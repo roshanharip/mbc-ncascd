@@ -1,0 +1,70 @@
+.Speakers {
+    position: relative;
+    width: 100vw;
+
+    h1 {
+        margin: auto;
+        text-align: center;
+        color: #f4f4f4;
+        padding: 10px;
+    }
+
+    .SpeakComp {
+        overflow: hidden;
+        width: 80vw;
+        margin: 10px auto;
+        background-color: #cae0fe;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        border-radius: 10px;
+        z-index: 1;
+        .SpeakerIntro{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .guestImg{
+                margin-top: 10px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    border-radius: 5px;
+                    position: relative;
+                    animation-name: loading;
+                    animation-duration: 2s;
+                }
+            }
+            .speakerName{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                    animation-name: loading;
+                    animation-duration: 4s;
+                h1{
+                    text-align: center;
+                    line-height: 90px;
+                }
+                p{
+                    font-style: italic;
+                }
+            }
+        }
+        .speakerDes{
+            width: 90%;
+            margin: 30px 5px;
+            position: relative;
+                    animation-name: loading;
+                    animation-duration: 6s;
+            p{
+                text-align: justify;
+                text-justify: inter-word;
+            }
+        }
+    }
+}

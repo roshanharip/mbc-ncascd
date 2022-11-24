@@ -4,7 +4,14 @@ import groupWorkImg from '../../../assets/img/about/groupwork.jpg';
 import Shape1 from '../../../assets/img/about/shap1.png';
 import DeptImg from '../../../assets/img/about/department.jpg';
 import PlaceImg from '../../../assets/img/about/kuttikanam.jpg';
+import Aos from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 const AboutComponent = () => {
+    useEffect(()=>{
+        Aos.init();
+        Aos.refresh();
+    },[])
     return (
         <div className='AboutComponent'>
             <div className='AboutC1 AboutC'>
